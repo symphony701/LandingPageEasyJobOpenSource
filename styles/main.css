@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --main-color: #7E0B9F;
+}
+
+.home {
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--main-color) !important;
+}
+
+nav h2 {
+    font-size: 108%;
+    font-weight: bold;
+    margin: 0 !important;
+    margin-top: 20px !important;
+}
+
+.nav-boton {
+    background: white !important;
+    width: 9pc;
+    height: 2.7pc;
+    border-radius: 16px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    color: var(--main-color);
+    background: white !important;
+    color: purple !important;
+    border-color: white;
+    border-radius: 23px;
+}
+
+@font-face {
+    font-family: HarlowSolidItalic;
+    src: url(./../fonts/HarlowSolidItalic.woff) format('woff');
+}
+
+.EasyJobs {
+    color: white;
+    margin: 0px;
+    font-family: HarlowSolidItalic;
+    font-size: 2.2rem;
+}
+
+.nav-options {
+    width: 61%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white-line {
+    width: 1px;
+    background-color: white;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.body {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-body {
+    height: auto;
+    background: white;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-search {
+    background: white;
+    border: 1px solid rgb(163, 161, 161);
+    width: 53% !important;
+    border-radius: 43px;
+    height: 13%;
+    align-items: center;
+    margin: 60px 0px 0px 0px;
+}
+
+.input-field {
+    color: var(--main-color);
+}
+
+.job-search .btn {
+    border-radius: 14px !important;
+}
+
+.job-search label {
+    color: var(--main-color) !important;
+}
+
+.job-options {
+    background: transparent;
+    width: auto;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options-buttons {
+    width: auto;
+    height: 80%;
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.options-buttons h2 {
+    grid-column: 1/12;
+    font-size: auto;
+    color: #7e027e;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.options-buttons .btn {
+    height: 55px !important;
+    width: 181px !important;
+    padding-top: 10px !important;
+    border-radius: 15px !important;
+}
+
+.btn-1 {
+    font-size: 12px !important;
+    grid-row: 2;
+    grid-column: 1/4;
+    font-weight: bold !important;
+}
+
+.btn-2 {
+    font-size: 14px !important;
+    grid-row: 2;
+    grid-column: 5/8;
+    font-weight: bold !important;
+}
+
+.btn-3 {
+    font-size: 14px !important;
+    grid-row: 2;
+    grid-column: 9/12;
+    font-weight: bold !important;
+}
+
+.btn-4 {
+    grid-row: 3;
+    grid-column: 3/6;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.btn-5 {
+    grid-row: 3;
+    grid-column: 7/10;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.btn {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+
+/*SECOND SECTION CSS*/
+
+.second-section {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second-section img {
+    min-height: 80%;
+}
+
+.left-side {
+    width: 57%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.left-side h2 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.left-side .input-field {
+    width: 63% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side .input-field input {
+    border-bottom: 1px solid var(--main-color) !important;
+}
+
+.left-side .input-field label {
+    color: var(--main-color);
+}
+
+.container-button {
+    font-size: 14px !important;
+    color: white !important;
+    font-weight: bold !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container-button button {
+    background-color: var(--main-color);
+    width: 131px !important;
+    height: 47px;
+    border-radius: 16px;
+    font-weight: bold !important;
+}
+
+
+/*THIRD SECTION CSS*/
+
+.third-section {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-third {
+    margin: 20px 0px;
+    width: 94%;
+    height: 93%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-third h2 {
+    margin: 10px 28px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.jobs-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    color: var(--main-color);
+}
+
+.job-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-item h5 {
+    font-weight: 500;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.four-section {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: var(--main-color);
+}
+
+.four-section img {
+    width: 30em;
+    height: 25em;
+}
+
+.four-section h2 {
+    font-size: 3.00rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.row-1 {
+    display: flex !important;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-1 div {
+    width: 41%;
+}
+
+.row-2 {
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-2 div {
+    width: 41%;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 1252px) {
+    .options-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .options-buttons .btn {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1066px) {
+    .job-item img {
+        width: 14em;
+        height: 14em;
+    }
+    .job-search {
+        width: 80%;
+    }
+}
+
+@media (max-width: 840px) {
+    .jobs-type {
+        flex-wrap: wrap;
+    }
+    .main-third {
+        margin: 20px;
+    }
+    .third-section {
+        height: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .second-section {
+        height: auto;
+        margin: 29px 0px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .second-section img {
+        height: 50%;
+        width: 56%;
+    }
+    .left-side {
+        align-items: center;
+    }
+    .left-side h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 724px) {
+    .options-buttons {
+        width: 33% !important;
+    }
+    .job-options img {
+        width: 19em;
+        height: 26em;
+    }
+}
+
+@media (max-width: 643px) {
+    .four-section h2 {
+        font-size: 2.5rem;
+    }
+    .four-section {
+        height: auto;
+        margin: 47px 0px;
+    }
+    .job-options {
+        flex-direction: column-reverse;
+        margin: 30px 0px;
+        height: auto !important;
+    }
+    .center-body {
+        height: auto;
+    }
+    .job-search {
+        width: 94%;
+    }
+    .body {
+        height: auto;
+    }
+    .options-buttons {
+        width: auto !important;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 273px;
+        padding: 12px;
+    }
+    .options-buttons a {
+        margin: 8px 5px;
+    }
+}
+
+@media (max-width: 596px) {
+    .row-1 {
+        display: flex !important;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+    .row-1 div {
+        width: 80%;
+    }
+    .row-2 {
+        flex-direction: column;
+    }
+    .row-2 div {
+        width: 80%;
+    }
+    .job-search {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: none;
+    }
+    .white-line {
+        display: none;
+    }
+    .button-container {
+        margin: 11px;
+    }
+    .job-search .input-field {
+        width: 26em !important;
+    }
+    .options-buttons h2 {
+        margin: 11px 0px;
+    }
+    .options-buttons {
+        height: auto;
+    }
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+    .iconos {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 422px) {
+    .left-side img {
+        width: 23em;
+        height: 28em;
+    }
+    .job-search .input-field {
+        width: 20em !important;
+    }
+    .left-side .container-input {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .four-section img {
+        width: 23em;
+        height: 25em;
+    }
+}
+
+.responsive-bar {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    background: purple;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 56px;
+    height: 95vh;
+    justify-content: space-evenly;
+}
