@@ -378,6 +378,14 @@ footer {
     justify-content: space-evenly;
 }
 
+.about {
+    margin-bottom: 90px;
+}
+
+.title-about {
+    margin-bottom: 20px;
+}
+
 
 /*RESPONSIVE*/
 
